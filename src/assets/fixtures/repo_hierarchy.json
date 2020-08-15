@@ -1,0 +1,106 @@
+{
+  "name": "Food Cost",
+  "children": [
+    {
+      "name": "Direct Cost",
+      "children": [
+        {
+          "name": "Ingredients",
+          "children": [
+            {
+              "name": "Patty",
+              "children": [
+                {
+                  "name": "Chicken",
+                  "children": [{ "name": 7074, "value": 7074 }]
+                },
+                {
+                  "name": "Beef",
+                  "children": [{ "name": 707, "value": 707 }]
+                }
+              ]
+            },
+            {
+              "name": "Bun",
+              "children": [{ "name": 7, "value": 7 }]
+            },
+            {
+              "name": "Sauce",
+              "children": [
+                { "name": "Tomato", "children": [{ "name": 74, "value": 74 }] },
+                { "name": "Chili", "children": [{ "name": 700, "value": 700 }] }
+              ]
+            },
+            {
+              "name": "Others",
+              "children": [
+                { "name": "Mushroom", "children": [{ "name": 4, "value": 4 }] },
+                {
+                  "name": "Onions",
+                  "children": [{ "name": 70740, "value": 70740 }]
+                },
+                { "name": "Salt", "children": [{ "name": 74, "value": 74 }] }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Usage",
+          "children": [
+            {
+              "name": "Electricity",
+              "children": [{ "name": 7074, "value": 7074 }]
+            },
+            { "name": "Rent", "children": [{ "name": 7074, "value": 7074 }] },
+            { "name": "Water", "children": [{ "name": 7074, "value": 7074 }] },
+            { "name": "Gas", "children": [{ "name": 7074, "value": 7074 }] },
+            {
+              "name": "Transportaion",
+              "children": [{ "name": 7074, "value": 7074 }]
+            }
+          ]
+        },
+        {
+          "name": "Waste",
+          "children": [
+            {
+              "name": "Expired Materials",
+              "children": [{ "name": 7074, "value": 7074 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indirect cost",
+      "children": [
+        { "name": "Labor", "children": [{ "name": 7074, "value": 7074 }] },
+        { "name": "Delivery", "children": [{ "name": 7074, "value": 7074 }] }
+      ]
+    },
+    {
+      "name": "Volatile Value",
+      "children": [
+        { "name": "Beef price", "children": [{ "name": 7074, "value": 7074 }] },
+        {
+          "name": "Chicken price",
+          "children": [{ "name": 7074, "value": 7074 }]
+        },
+        { "name": "Onion", "children": [{ "name": 7074, "value": 7074 }] }
+      ]
+    },
+    {
+      "name": "Menu sale Price",
+      "children": [
+        {
+          "name": "Beef Burger",
+          "children": [{ "name": 7074, "value": 7074 }]
+        },
+        {
+          "name": "Chicken Burger",
+          "children": [{ "name": 7074, "value": 7074 }]
+        }
+      ]
+    }
+  ]
+}
