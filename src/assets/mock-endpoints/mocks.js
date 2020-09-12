@@ -27,7 +27,7 @@ mock.onGet("/api/dashboard-list").reply(200, [
     path: "repo_dash_config",
     title: "Why the rich get richer",
     description:
-      "The cheez cost insights dashboard contains data about the organization's food cost branch hierarchy, a stacked line graph comparison of sales vs cost repositories, and a scatter graph plot of custormer's birthdays.",
+      "Ever wondered why Jeff Bezos keeps getting richer? How consistency can give you the upper hand? There's a mathematical formula for becoming successful. I never thought just a simple coin flip can make someone richer than the other. So I wrote a #python script to see for myself and here's the result.",
   },
   {
     path: "repo_dash_config",

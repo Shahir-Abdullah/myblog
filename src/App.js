@@ -5,11 +5,12 @@ import Home from "./pages/Home";
 import ResponsiveNavigation from "./components/ResponsiveNavigation";
 import Dashboard from "./pages/Dashboard";
 import DashboardSelector from "./pages/DashboardSelector";
+import Article from "./components/Article";
 import "./assets/scss/base.scss";
 import "./App.css";
 import axios from "axios";
-import Paragraph from "./components/Paragraph"
-if (process.env.NODE_ENV === "development") {
+
+if (process.env.NODE_ENV === "production") {
   require("./assets/mock-endpoints/mocks");
 }
 
@@ -35,17 +36,13 @@ function App() {
         hoverBackground="#ddd"
         linkColor="#777"
       ></ResponsiveNavigation>
-      
+
       <Router>
         <Home path="/" />
-        <Dashboard axios={axios} path="/analytics/:dashboardName" />
         <DashboardSelector axios={axios} path="/analytics" />
-       
+        <Dashboard axios={axios} path="/analytics/:dashboardName" />
       </Router>
-      
     </div>
-
-    
   );
 }
 
